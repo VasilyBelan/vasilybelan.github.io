@@ -83,7 +83,7 @@ a{
 }
 
 @media screen and (max-width: 500px) {
-    #me {
+    #myPic {
          width: 100%;
          margin: auto;
          margin-top: 55px;
