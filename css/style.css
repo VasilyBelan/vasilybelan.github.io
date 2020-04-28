@@ -81,3 +81,15 @@ a{
     background-color: transparent;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+    #me {
+         width: 100%;
+         margin: auto;
+         margin-top: 55px;
+    }
+    footer {
+         margin-top: 0px;
+    }
+
+}
