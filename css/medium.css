@@ -1,8 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     .myPic{
         margin-top: -70px;
-        width: 200px ;
-        height: auto ;
         float: right;
         border-radius: 12px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5); 
