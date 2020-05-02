@@ -38,12 +38,10 @@ h2{
 }
 
 .myPic{
-    margin-top: -70px;
-    width: 200px ;
-    height: auto ;
-    float: right;
+    width: 200px;
+    height: auto;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 footer{
