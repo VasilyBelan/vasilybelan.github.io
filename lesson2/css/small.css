@@ -1,0 +1,69 @@
+body {
+    font-family:"Cudea", "Geneva", sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0.8rem;
+}
+
+section{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    border: solid 2px;
+    background-color: #170E57;
+    color: #1ECCCC;
+}
+
+
+header{
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: #170E57;
+    color: #1ECCCC;
+    border-bottom: solid 3px;
+}
+
+h1{
+    margin: 0.6em;
+    font-size: 3em;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0.75rem;
+    background-color: #170E57;
+    color: #1ECCCC;
+    border-top: solid 2px;
+    border-bottom: solid 3px;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+    color: yellow;
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+#refSpan{
+    color: #1ECCCC;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
