@@ -1,8 +1,0 @@
-@media only screen and (min-width: 32.5em) {
-    .myPic{
-       width: 200px;
-       height: auto;
-       border-radius: 12px;
-       box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    } 
-}
