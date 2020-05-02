@@ -18,11 +18,12 @@ hr{
 }
 
 header{
-    display: flex;
-    justify-content: center;
-    min-height: 80px;
+    display: block;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    max-width: 55rem;
     text-align: center;
-    position: relative;
     background-color: #001Ca0;
     border-radius: 20px;
 }
@@ -37,20 +38,22 @@ h2{
 }
 
 .myPic{
+    margin-top: -70px;
     width: 200px ;
     height: auto ;
     float: right;
-    width: 160px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
 
 footer{
-    display: flex;
+    display: block;
     justify-content: center;
-    min-height: 80px;
     text-align: center;
-    position: relative;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    max-width: 55rem;
     background-color: #001Ca0;
     border-radius: 20px;
     color: #F0EDD5;
