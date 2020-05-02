@@ -4,6 +4,9 @@ body {
 
 main{
     display: grid;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: 1fr;
     margin-top: 0.8rem;
 }
@@ -32,7 +35,36 @@ h1{
     font-size: 3em;
 }
 
+h2{
+    font-size: 2.2em;
+    text-align: center;
+}
 
+h3{
+    font-style: italic;
+    text-align: center;
+}
+
+section a{
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+
+P { 
+    text-indent: 1.5em; 
+    text-align: justify; 
+   }
 
 footer{
     text-align: center;
@@ -41,7 +73,6 @@ footer{
     background-color: #170E57;
     color: #1ECCCC;
     border-top: solid 2px;
-    border-bottom: solid 3px;
 }
 
 #copyright{
