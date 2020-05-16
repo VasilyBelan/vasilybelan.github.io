@@ -16,11 +16,12 @@ header {
 }
 
 #active {
-    background: #008FDB;
+    background: #007122;
     border-radius: 5px;
-    border: 2px solid grey;
+    border: 1px solid white;
     text-decoration: underline;
-}
+    color: black;
+  }
 
 img{
   width: 80px;
