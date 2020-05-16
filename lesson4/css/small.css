@@ -1,0 +1,148 @@
+body {
+	background-color: #000000;
+	padding: 0;
+	margin: 0;
+  font-family: "Cudea", "Geneva", sans-serif;
+}
+
+header {
+	background-color: #008FDB;
+	padding: 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+  font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+  font-size: 18px;
+}
+
+#active {
+    background: #008FDB;
+    border-radius: 5px;
+    border: 2px solid grey;
+    text-decoration: underline;
+}
+
+img{
+  width: 80px;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+
+nav{
+  background-color: #1CE15A;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navigation{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.responsive li{
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+.hrHeader{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrMain{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrFooter{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    height: max-content;
+    background-color: #008FDB;
+}
+
+.prestonHeading{
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.points{
+    padding: rem;
+    border: 1px groove black;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 23px;
+    background-color: #FFF800;
+    text-align: center;
+}
+
+footer{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    padding: 0.75rem;
+    background-color: #1CE15A;
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+#refSpan{
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer a{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}

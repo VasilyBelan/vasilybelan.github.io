@@ -1,0 +1,67 @@
+@media only screen and (min-width: 37.5em) {
+
+    header {
+        background-color: #008FDB;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+      font-size: 25px;
+    }
+    
+    nav{
+      background-color: #1CE15A;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    
+    h1{
+      text-align: center;
+      font-size: 40px;
+      margin: 0;
+    }
+    
+    img{
+      width: 150px;
+    }
+    
+    .navigation{
+      display: flex;
+    }
+    
+    .navigation li{
+      display: block;
+      flex: 1 1 100%;
+    }
+    
+    .navigation li:hover {
+      background-color: #008FDB;
+      color: #f7f4e7;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px black;
+    }
+    
+    #liLast{
+      border-right: 0px;
+    }
+    
+     .navigation li:first-child {
+      display: none;
+    }
+    
+    .navigation a{
+        display: block;
+        text-decoration: none;
+        padding: 0.75em;
+        text-align: center;
+        color: #000000;
+    }
+    
+    footer{
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+}
