@@ -102,7 +102,6 @@ main{
 }
 
 .points{
-    padding: rem;
     border: 1px groove black;
     width: 80%;
     border-radius: 5px;
