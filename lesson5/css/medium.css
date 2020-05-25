@@ -110,13 +110,14 @@
     .articlePic{
       max-width: 450px;
       margin-bottom: 5px;
-      padding-left: 20px;
+      margin-left: 20px;
       float: right;
     }
 
     .map{
     grid-column: 1;
     grid-row: 1;
+    margin: 10px auto;
     }
 
     .mapPic{

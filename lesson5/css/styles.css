@@ -48,10 +48,14 @@ nav{
       background-color: #7EA9FF;
 }
 
-.contactsRow{
-    background-color: #7EA9FF;
-    border: 5px solid #0A3282;
-}
+.articlePic{
+    box-shadow: 0 0 30px black;
+  }
+
+.map{
+    border: #0A3282 solid 3px;
+    box-shadow: 0 0 30px black;
+  }
 
 footer {
     background-color: #1356D4;
