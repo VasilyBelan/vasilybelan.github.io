@@ -53,6 +53,11 @@
       text-align: center;
   }
   
+  .Preston{
+    font-size: 25px;
+  }
+
+
   .summaryBox{
     position: absolute;
     top: 15px;
