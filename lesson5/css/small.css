@@ -5,8 +5,8 @@ body {
 }
 
 #pancakes{
-  /*display: none;*/
-  font-size: 10px;
+  display: none;
+  font-size: 12px;
   font-weight: bold;
   padding: 0 2px;
   text-align: center;
