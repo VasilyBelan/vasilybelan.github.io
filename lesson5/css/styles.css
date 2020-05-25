@@ -1,0 +1,67 @@
+
+header {
+    background-color: #222C3D;
+    color: white;
+}
+
+#active {
+    background: #0A3282;
+    color: white;
+}
+
+nav{
+  background-color: #1356D4;
+}
+
+
+.navigation a {
+    color: #000000;
+}
+  
+.responsive li {
+      border-bottom: 1px solid black;
+}
+  
+@media only screen and (min-width: 30.5em) {
+    .navigation li:hover {
+        background-color: #0A3282;
+        color: white;
+        border: 1px solid #000000;
+        box-shadow: 5px 5px 5px black;
+}
+    .navigation li a:hover {
+        color: white;
+  }
+}
+
+.summaryBox{
+    background-color: rgba(126, 169, 255, 0.7);
+    border: 3px solid #0A3282;
+    color: white;   
+}
+.dayBox{
+    border: 3px solid #0A3282;
+    background-color: #7EA9FF;
+}
+
+.article{
+      background-color: #7EA9FF;
+}
+
+.contactsRow{
+    background-color: #7EA9FF;
+    border: 5px solid #0A3282;
+}
+
+footer {
+    background-color: #1356D4;
+    color: #000000;
+}
+
+#refSpan {
+    color: #000000;
+}
+
+footer a {
+    color: white;
+}

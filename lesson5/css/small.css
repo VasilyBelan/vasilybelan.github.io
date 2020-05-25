@@ -1,0 +1,199 @@
+body {
+	padding: 0;
+	margin: 0;
+  font-family: "Cudea", "Geneva", sans-serif;
+}
+
+header {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	padding: 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+  font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+  font-size: 18px;
+}
+
+#active {
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+
+#logo{
+  width: 80px;
+}
+
+#heroPic{
+  width: 100%;
+  max-height: 400px;
+}
+
+nav{
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navigation{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a{
+  display: block;
+  text-decoration: none;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.responsive li{
+  display: block;
+}
+
+.hrHeader{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrMain{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrFooter{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
+}
+
+.prestonHeading{
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+
+.heroBox{
+  position: relative;
+}
+
+.summaryBox{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 15px;
+  max-width: 30%;
+}
+
+.heroBox h3{
+  font-size: 20px;
+}
+
+.heroBox p{
+  font-size: 15px;
+  line-height: 0.8;
+}
+
+.forecastText{
+  display: none;
+}
+
+.forecast{
+  display: none;
+}
+
+.article{
+  display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 30px 0 5px 0;
+}
+
+.article h3{
+  order: 1;
+}
+
+.articlePic{
+  order: 2;
+  max-width: 100%;
+  float: right;
+}
+
+.articleText{
+  order: 3;
+}
+
+.contactsRow{
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.map{
+  margin: 0.7rem;
+}
+
+.mapPic{
+  max-width: 100%;
+}
+
+.contacts{
+  text-align: center;
+  padding: 0.7rem 0.7rem 0.7rem 5rem;
+  float: right;
+}
+
+footer{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    padding: 0.75rem;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: solid 1px black;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+#refSpan{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer a{
+    background-color: transparent;
+    text-decoration: underline;
+}
