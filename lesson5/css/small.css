@@ -4,6 +4,19 @@ body {
   font-family: "Cudea", "Geneva", sans-serif;
 }
 
+#pancakes{
+  /*display: none;*/
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0 2px;
+  text-align: center;
+}
+
+#pancakes p{
+  margin: 0;
+  padding: 10px;
+}
+
 header {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
