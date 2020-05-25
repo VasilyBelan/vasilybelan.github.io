@@ -148,34 +148,43 @@ main{
 }
 
 .contactsRow{
-  display: flex;
-  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .map{
-  margin: 0.7rem;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  max-width: 80%;
+  padding: 20px;
+  margin: 0 auto 0 auto;
 }
 
 .mapPic{
-  max-width: 100%;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  max-width: 90%;
+  padding: 5px;
+  margin: 0 auto 0 auto;
 }
 
 .contacts{
-  text-align: center;
-  padding: 0.7rem 0.7rem 0.7rem 5rem;
-  float: right;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 25px;
 }
 
 footer{
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 0;
-    padding: 0.75rem;
-    font-weight: bold;
-    font-size: 0.8em;
-    border: solid 1px black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.75rem;
+  background-color: #1CE15A;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 
 #copyright{

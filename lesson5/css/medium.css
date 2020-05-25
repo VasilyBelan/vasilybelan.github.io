@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30.5em) {
+@media only screen and (min-width: 768px) {
 
     header {
       -webkit-text-stroke-width: 1px;
@@ -112,6 +112,22 @@
       margin-bottom: 5px;
       padding-left: 20px;
       float: right;
+    }
+
+    .map{
+    grid-column: 1;
+    grid-row: 1;
+    }
+
+    .mapPic{
+      max-width: 100%;
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .contacts{
+      grid-column: 2;
+      grid-row: 1;
     }
 
     footer{
