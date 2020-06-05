@@ -1,0 +1,150 @@
+@media only screen and (min-width: 600px) {
+
+
+  #pancakes{
+    /*display: none;*/
+    font-size: 15px;
+  }
+
+  header {
+    -webkit-text-stroke-width: 1px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+    font-size: 25px;
+  }
+  
+  nav{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  #logo{
+    width: 150px;
+  }
+  
+  .navigation{
+    display: flex;
+  }
+  
+  .navigation li{
+    display: block;
+    flex: 1 1 100%;
+  }
+  
+  .navigation li:hover {
+    border-radius: 5px;
+  }
+  
+  #liLast{
+    border-right: 0px;
+  }
+  
+    .navigation li:first-child {
+    display: none;
+  }
+  
+  .navigation a{
+      display: block;
+      text-decoration: none;
+      padding: 0.75em;
+      text-align: center;
+  }
+  
+  .Preston{
+    font-size: 25px;
+  }
+
+
+  .summaryBox{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 15px;
+    max-width: 50%;
+  }
+
+  .heroBox h3{
+    font-size: 23px;
+  }
+  
+  .heroBox p{
+    font-size: 18px;
+  }
+
+  .forecastText {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3px;
+  }
+  
+  .forecast{
+    display: block;
+    padding: 0 1rem 1rem;
+  }
+  
+  #daysSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .dayBox{
+    font-size: 1.3rem;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 90px;
+    flex: 1 1 auto;
+    background-color: #7EA9FF;
+  }
+  
+  .dayBox p{
+    margin: 5px;
+  }
+  
+  .iconWeather{
+    font-size: 30px;
+  }
+
+  .article{
+    display: block;
+    padding: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .articlePic{
+    max-width: 450px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    float: right;
+  }
+
+  .map{
+  grid-column: 1;
+  grid-row: 1;
+  margin: 10px auto;
+  }
+
+  .mapPic{
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .contacts{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  footer{
+      border-radius: 5px;
+      font-size: 1em;
+  }
+    
+}

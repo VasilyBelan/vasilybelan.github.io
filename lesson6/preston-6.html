@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather's Mood Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Weather Site of Vasily Belan">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  rel="stylesheet" href="/lesson6/css/small.css">
+    <link rel="stylesheet" href="/lesson6/css/medium.css">
+    <link rel="stylesheet" href="/lesson6/css/large.css">
+    <link rel="stylesheet" href="/lesson6/css/styles.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Gochi+Hand%7cGudea&display=swap" rel="stylesheet">-->
+</head>
+<body>
+  <div id="pancakes"></div>
+  <header>
+		<a href="preston-6.html">
+    <img id="logo" src="/lesson6/images/iconfinder_Umbrella_2974391.jpg" alt="Logo Umbrella"></a>
+	  <section>
+		<h1>Weather's Mood</h1>
+		<div>Don't let the weather's mood affect your mood! Look ahead!</div>
+	  </section>
+  </header>
+  <hr class="hrHeader">
+  <nav>
+    <ul class="navigation">
+      <li><a class="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a id="active" href="preston-6.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="Preston">
+      <h2>Preston Idaho</h2>
+    </div>
+    <div class="heroBox">
+      <section class="summaryBox">
+        <h3>Weather Summary</h3>
+          <p>Currently: <span>Sunny</span></p>
+          <p>High: <span id="highT">49 </span>°F</p>
+          <p>Wind Chill: <span id="windCH"></span></p>
+          <p>Humidity: <span>69%</span></p>
+          <p>Wind Speed: <span id="windS">5</span> mph</p>
+      </section>
+      <picture>
+        <source media="(max-width: 600px)" srcset="/lesson6/images/nicePic400.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson6/images/nicePic800.jpg">
+        <img src="/lesson6/images/nicePic1200.jpg" alt="Nice Picture of nature">
+      </picture> 
+    </div>
+    <h2 class="forecastText"> 5 Days Forecast </h2>
+    <div class="forecast">
+      <div id="daysSection">
+        <div class="dayBox">
+          <p id="day0">Mon</p>
+          <p class="iconWeather">🌞</p>
+          <p>89 &#8457;</p>
+        </div>
+        <div class="dayBox">
+          <p id="day1">Tue</p>
+          <p class="iconWeather">🌞</p>
+          <p>89 &#8457;</p>
+        </div>
+        <div class="dayBox">
+          <p id="day2">Wed</p>
+          <p class="iconWeather">🌞</p>
+          <p>89 &#8457;</p>
+        </div>
+        <div class="dayBox">
+          <p id="day3">Thu</p>
+          <p class="iconWeather">🌞</p>
+          <p>89 &#8457;</p>
+        </div>
+        <div class="dayBox">
+          <p id="day4">Fri</p>
+          <p class="iconWeather">🌞</p>
+          <p>89 &#8457;</p>
+      </div>
+      </div>
+    </div>
+    <section class="article">
+      <img class="articlePic" src="images/articlePic.jpg" alt="lightning and city">
+      <h3>The importance of weather forecast knowledge</h3>
+      <div class="articleText">
+        <p>Weather and climate play a vital role in human life. Every day we are faced with the fact that natural disasters occur on the planet and bring more than visible damage. 
+          That is why it is so important to warn them. If you constantly monitor the weather forecast, you will be able to adequately respond to disastrous changes. 
+          If we talk about a smaller scale of impact, then knowing for sure whether it will rain or snow tomorrow, you can rationally plan your day, or abandon your plan. 
+          Only the most accurate data are presented here, the risk of error is minimal, so you can confidently make plans for the near future.</p>    
+        <p>In addition, it is worth noting that the weather forecast has a direct impact on the economic component. 
+          Failure to apply meteorological information in energy, construction, aviation, shipping, industry and agriculture can result in significant losses.</p>      
+        <p>Natural phenomena can have varying degrees of impact. On the one hand, hydrometeorological disasters can cause visible damage to the economy, and on the other, 
+          become an inexhaustible resource. If you use them effectively, you can maximize profits and minimize losses. 
+          The level of interaction of the weather forecast with entities belonging to a particular industry can radically differ. 
+          In this case, everything will depend on the degree of its dependence on climate and weather, as well as intra-industry regulations.</p>
+        <p>Weather can affect the well-being of a person. It is important to predict this and take all necessary security measures.</p>
+        <p>In order to avoid harmful consequences, it is necessary to find a reliable source of information that can provide all the information necessary for analytics.</p>
+      </div>  
+    </section>
+    <section class="contactsRow">
+      <div class="map">
+        <img class="mapPic" src="images/map.png" alt="Map's picture">
+      </div>
+      <div class="contacts">
+        <h3>Contacts</h3>
+        <p>Emerald City</p>
+        <p>Red Brick Street, 999</p>
+        <p>(999)-999-9999</p>
+        <p>contact@weathersmood.com</p>
+        <div class="socialIcons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-skype"></a>
+      </div>
+      </div>
+    </section>
+
+ </main>
+  <footer>
+        <div>
+            <span id="copyright">
+                © 
+                <span id="year"></span> 
+                | Vasily Belan | Republic of Bashkortostan | 
+                <a id="refSpan" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        
+            </span>
+        </div> 
+        <span id="lastUpdate"></span>
+  </footer>
+  <script src="js/windChill.js"></script>
+  <script src="/lesson6/js/lastUpdate.js"></script>
+  <script src="/lesson6/js/toggleMenu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {families: ['Gochi+Hand']}});
+    </script>
+</body>
+</html>
