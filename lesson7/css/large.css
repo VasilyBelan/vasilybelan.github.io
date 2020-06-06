@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1200px) {
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  nav{
+      font-size: 20px;
+  }
+
+  header {
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery figure:hover {box-shadow: 0 0 50px #333;}
+
+  div{
+    font-size: 1.3em;
+  }
+  
+  
+}  

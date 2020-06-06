@@ -1,0 +1,186 @@
+body {
+	padding: 0;
+	margin: 0;
+  font-family: "Cudea", "Geneva", sans-serif;
+}
+
+#pancakes{
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 2px;
+  text-align: center;
+}
+
+#pancakes p{
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	padding: 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+  font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+  font-size: 18px;
+}
+
+header h1{
+  margin: 10px 10px 10px 0;
+}
+
+#active {
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+
+#logo{
+  width: 80px;
+}
+
+.heroBox img{
+  width: 100%;
+}
+
+nav{
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navigation{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a{
+  display: block;
+  text-decoration: none;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.responsive li{
+  display: block;
+}
+
+.hrHeader{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrMain{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrFooter{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  gap: 20px;
+}
+
+.gallery figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.imgGallery {
+  width: 100%;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+footer{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.75rem;
+  background-color: #1CE15A;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+#refSpan{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer a{
+    background-color: transparent;
+    text-decoration: underline;
+}
