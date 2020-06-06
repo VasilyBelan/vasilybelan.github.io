@@ -118,7 +118,7 @@ main{
   gap: 20px;
 }
 
-h4{
+.error{
     display: block;
     margin-block-start: 0px;
     margin-block-end: 0px;
