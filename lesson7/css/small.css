@@ -118,6 +118,15 @@ main{
   gap: 20px;
 }
 
+h4{
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+
 .gallery figure {
   margin: 0;
   padding: 0;
