@@ -152,8 +152,10 @@ form span.options {
 }
 
 #comments {
-  height: 80px;
+  height: 200px;
   width: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 form label.top input, form label.top select {
@@ -191,6 +193,7 @@ form label.top, form div {
   top: 5px;
   left: 4px;
 }
+
 
 footer{
   max-width: 900px;
