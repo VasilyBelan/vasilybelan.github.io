@@ -174,15 +174,15 @@ form label.second {
 }
 
 form input.submitButton {
+  width: 100%;
+  max-width: 20em;
   display: block;
   border: none;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; 
   padding: .70rem 1.3rem;
   margin-bottom: 1.8rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 20em;
 }
 
 form label.top, form div {
