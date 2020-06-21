@@ -1,0 +1,117 @@
+@media only screen and (min-width: 600px) {
+
+
+  #pancakes{
+    /*display: none;*/
+    font-size: 15px;
+  }
+
+  header {
+    -webkit-text-stroke-width: 1px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+    font-size: 25px;
+  }
+  
+  nav{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  #logo{
+    width: 150px;
+  }
+  
+  .navigation{
+    display: flex;
+  }
+  
+  .navigation li{
+    display: block;
+    flex: 1 1 100%;
+  }
+  
+  .navigation li:hover {
+    border-radius: 5px;
+  }
+  
+  #liLast{
+    border-right: 0px;
+  }
+  
+  .navigation li:first-child {
+    display: none;
+  }
+  
+  .navigation a{
+      display: block;
+      text-decoration: none;
+      padding: 0.75em;
+      text-align: center;
+  }
+  
+@media only screen and (max-width: 1188px) and (min-width: 768px) { 
+  .city {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-height: 285px;
+
+}
+
+.city h1 {
+    border-bottom: transparent dotted 5px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.city h2 {
+    direction: ltr;
+    padding: 0 15px;
+    font-size: 20px;
+    margin-top: 90px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.city h3, .city h4, .city h5 {
+    direction: ltr;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.city h3 {
+    margin-top: -100px;
+}
+
+.city h4 {
+    margin-top: -75px;
+}
+
+.city h5 {
+    margin-top: -50px;
+}
+
+.city img {
+    height: 280px;
+    margin-top: 2px;
+    margin-right: 25px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.city:nth-child(3) {
+    direction: rtl;
+    padding: 10px 10px 10px 35px;
+    width: 82%;
+}
+}
+  footer{
+      border-radius: 5px;
+      font-size: 1em;
+  }
+    
+}
