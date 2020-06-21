@@ -153,6 +153,12 @@ nav{
 
 }
 
+#wireframes {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
 footer{
   max-width: 900px;
   margin-left: auto;
