@@ -173,6 +173,7 @@ main{
 }
 
 .map{
+  display:block;
   grid-column: 1 / 3;
   grid-row: 2;
   max-width: 80%;
