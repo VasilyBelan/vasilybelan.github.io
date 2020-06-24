@@ -213,6 +213,18 @@ main{
   border-radius: 50%;
 }
 
+#facebook{
+  color: #3B5998;
+}
+
+#twitter{
+  color: #55ACEE;
+}
+
+#whatsapp{
+  color: #25d366;
+}
+
 /*
 .fa-facebook {
   background: #3B5998;
@@ -221,11 +233,6 @@ main{
 
 .fa-twitter {
   background: #55ACEE;
-  color: white;
-}
-
-.fa-skype {
-  background: #00aff0;
   color: white;
 }
 
