@@ -204,15 +204,15 @@ main{
   font-size: 15px;
 }
 
-.fa {
-  padding: 15px;
-  font-size: 20px;
+.fa-stack {
+  padding: 30px;
+  font-size: 40px;
   width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
-
+/*
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -231,6 +231,8 @@ main{
 .fa:hover {
   opacity: 0.7;
 }
+*/
+
 
 footer{
   max-width: 900px;
