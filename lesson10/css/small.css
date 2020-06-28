@@ -136,11 +136,18 @@ main{
   line-height: 0.8;
 }
 
-.forecastText{
+.forecast p {
+  font-weight: 600;
+  font-size: small;
+  color: white;
+  margin: auto;
+}
+
+#forecast5{
   display: none;
 }
 
-.forecast{
+.forecastText{
   display: none;
 }
 
@@ -224,6 +231,23 @@ main{
 #whatsapp{
   color: #25d366;
 }
+
+/*
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+*/
+
 
 footer{
   max-width: 900px;
