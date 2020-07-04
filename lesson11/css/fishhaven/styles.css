@@ -48,6 +48,10 @@ nav{
     background-color: #7EA9FF;
 }
 
+.forecast p {
+    color: black;
+}
+
 .article{
       background-color: #7EA9FF;
 }
