@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather's Mood Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Gallery Page of Vasily Belan">
+    <link  rel="stylesheet" href="/lesson11/css/gallery/small.css">
+    <link rel="stylesheet" href="/lesson11/css/gallery/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/gallery/large.css">
+    <link rel="stylesheet" href="/lesson11/css/gallery/styles.css">
+</head>
+<body>
+  <div id="pancakes"></div>
+  <header>
+		<a href="gallery.html">
+    <img id="logo" src="/lesson11/images/gallery/iconfinder_Umbrella_2974391.jpg" alt="Logo Umbrella"></a>
+	  <section>
+		<h1>Weather's Mood</h1>
+		<div>Don't let the weather's mood affect your mood! Look ahead!</div>
+	  </section>
+  </header>
+  <hr class="hrHeader">
+  <nav>
+    <ul class="navigation">
+      <li><a class="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="/lesson11/home.html">Home</a></li>
+      <li><a href="/lesson11/preston.html">Preston</a></li>
+      <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+      <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+      <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+      <li><a id="active" href="#">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="headline">Weather Gallery</h2>
+    <section class="gallery">
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/clouds.jpg" alt="Nice clouds">
+            <figcaption><h4 class="error">Sometimes you can see cute clouds above the city</h4></figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/clouds2.jpg" alt="Dark clouds">
+            <figcaption>Sometimes you can see pretty evil clouds</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/empty-road.jpg" alt="Empty road in the forest">
+            <figcaption>Forest. Fog. Road.</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/fall.jpg" alt="Wonderful fall">
+            <figcaption>Fiery autumn</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/fall-road.jpg" alt="Fall's road in the garden">
+            <figcaption>Autumn is like the beginning of the end of the year</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/lightning.jpg" alt="lightning above the town">
+            <figcaption>They say it is Zeus, but we know that it’s just lightning</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/rain.jpg" alt="Raindrops">
+            <figcaption>There is no bad weather. Even raindrops can deliver aesthetic pleasure.</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/snow-road.jpg" alt="Snow road in the forest">
+            <figcaption>Winter road in the forest</figcaption>
+        </figure>
+        <figure>
+            <img class="imgGallery" src="/lesson11/images/gallery/placeholder.jpg" data-src="/lesson11/images/gallery/winter.jpg" alt="Nice winter">
+            <figcaption>"To every thing there is a season, and a time to every purpose under the heaven..."(Ecclesiastes:3) Winter is time for pondering</figcaption>
+        </figure>
+    </section>
+ </main>
+  <footer>
+        <div>
+            <span id="copyright">
+                © 
+                <span id="year"></span> 
+                | Vasily Belan | Republic of Bashkortostan | 
+                <a id="refSpan" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        
+            </span>
+        </div> 
+        <span id="lastUpdate"></span>
+  </footer>
+  <script src="/lesson11/js/gallery/lazyloading.js"></script>
+  <script src="/lesson11/js/gallery/lastUpdate.js"></script>
+  <script src="/lesson11/js/gallery/toggleMenu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({google: {families: ['Gochi+Hand']}});
+    </script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+body {
+	padding: 0;
+	margin: 0;
+  font-family: "Cudea", "Geneva", sans-serif;
+}
+
+#pancakes{
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 2px;
+  text-align: center;
+}
+
+#pancakes p{
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	padding: 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+  font-family: "Gochi Hand", "Comic Sans MS", fantasy;
+  font-size: 18px;
+}
+
+header h1{
+  margin: 10px 10px 10px 0;
+}
+
+#active {
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+
+#logo{
+  width: 80px;
+}
+
+.heroBox img{
+  width: 100%;
+}
+
+nav{
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navigation{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a{
+  display: block;
+  text-decoration: none;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.responsive li{
+  display: block;
+}
+
+.hrHeader{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrMain{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrFooter{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.city h1, .city h2, .city h3, .city h4, .city h5 {
+    text-align: center;
+}
+
+.city h1 {
+    font-size: 32px;
+    font-variant: none;
+}
+
+.city h2 {
+    text-shadow: transparent 3px 3px 5px;
+    font-size: 18px;
+    margin-bottom: 35px;
+
+}
+
+.city h3, .city h4, .city h5 {
+    text-shadow: transparent 3px 3px 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: .3em;
+}
+
+.city h5 {
+    margin-top: -1px;
+}
+
+.city img {
+    width: 100%;
+}
+
+.city {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.city:nth-child(1) {
+    grid-row: 3;
+
+}
+
+#wireframes {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+footer{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.75rem;
+  background-color: #1CE15A;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: yellow;
+}
+
+#refSpan{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer a{
+    background-color: transparent;
+    text-decoration: underline;
+}
