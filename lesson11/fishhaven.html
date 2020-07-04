@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather's Mood Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Weather Site of Vasily Belan">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link  rel="stylesheet" href="/lesson11/css/fishhaven/small.css">
+    <link rel="stylesheet" href="/lesson11/css/fishhaven/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/fishhaven/large.css">
+    <link rel="stylesheet" href="/lesson11/css/fishhaven/styles.css">
+</head>
+<body onload="getFive(5604473)">
+  <div id="pancakes"></div>
+  <header>
+    <picture>
+      <source media="(max-width: 600px)" srcset="/lesson11/images/fishhaven/logo200.png">
+      <img id="logo" src="/lesson11/images/iconfinder_Umbrella_2974391.jpg" alt="Logo">
+    </picture> 
+	  <section>
+		<h1>Weather's Mood</h1>
+		<div>Don't let the weather's mood affect your mood! Look ahead!</div>
+	  </section>
+  </header>
+  <hr class="hrHeader">
+  <nav>
+    <ul class="navigation">
+      <li><a class="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="/lesson11/home.html">Home</a></li>
+      <li><a href="/lesson11/preston.html">Preston</a></li>
+      <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+      <li><a id="active" href="#">Fish Haven</a></li>
+      <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+      <li><a href="/lesson11/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="fishhaven">
+      <h2>Fish Haven</h2>
+    </div>
+    <div class="heroBox">
+      <div class="summaryBox">
+        <h3>Weather Summary</h3>
+          <p>Currently: <span id="condition"></span></p>
+          <p>Current Temperature: <span id="current"></span>&#8457;</p>
+          <p>High: <span id="highT"></span>&#8457;</p>
+          <p>Wind Chill: <span id="windchill"></span></p>
+          <p>Humidity: <span id="hum"></span>%</p>
+          <p>Wind Speed: <span id="windS"></span> mph</p>
+      </div>
+      <picture>
+        <source media="(max-width: 600px)" srcset="/lesson11/images/fishhaven/nicePic400.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson11/images/fishhaven/nicePic800.jpg">
+        <img src="/lesson11/images/fishhaven/nicePic1200.jpg" alt="Nice Picture of nature">
+      </picture> 
+    </div>
+    <h2 class="forecastText"> 5 Days Forecast </h2>
+      <div id="forecast5">
+          <div class="forecast">
+              <p id="day1">Mon</p>
+              <div class="icon-holder">
+                  <img src="/lesson11/images/fishhaven/Placeholder.png" alt="forecast icon">
+              </div>
+              <p>&#8457;</p>  
+          </div>
+          <div class="forecast">
+              <p id="day2">Tue</p>
+              <div class="icon-holder">
+                  <img src="/lesson11/images/fishhaven/Placeholder.png" alt="forecast icon">
+              </div>
+              <p>&#8457;</p>  
+          </div>
+          <div class="forecast">
+              <p id="day3">Wed</p>
+              <div class="icon-holder">
+                  <img src="/lesson11/images/fishhaven/Placeholder.png" alt="forecast icon">
+              </div>
+              <p>&#8457;</p>  
+          </div>
+          <div class="forecast">
+              <p id="day4">Thur</p>
+              <div class="icon-holder">
+                  <img src="/lesson11/images/fishhaven/Placeholder.png" alt="forecast icon">
+              </div>
+              <p>&#8457;</p>  
+          </div>
+          <div class="forecast">
+              <p id="day5">Fri</p>
+              <div class="icon-holder">
+                  <img src="/lesson11/images/fishhaven/Placeholder.png" alt="forecast icon">
+              </div>
+              <p>&#8457;</p>  
+          </div>
+      </div>
+    <section class="article">
+      <img class="articlePic" src="/lesson11/images/fishhaven/articlePic.jpg" alt="lightning and city">
+      <h3>Weather Myths: Believe It or Not?</h3>
+      <div class="articleText">
+        <p><b>From a thunderstorm you can hide under a tree</b></p>
+            <p>Some people believe that they will be safe by hiding under a tree during a thunderstorm. But this is actually the worst thing you can think of. 
+            Lightning is five times hotter than the surface of the Sun, and even the shortest blow carries a huge amount of energy. In addition to setting fire to the trees, 
+            the heat from the discharge evaporates all the water in the trunk with the passage of current. This leads to the fact that the water expands, 
+            sometimes tearing off parts of the crust or causing a small explosion.
+            If you know that some tree has already experienced a thunderstorm, do not be fooled by the old adage “lightning does not strike twice in the same place”. 
+            Lightning stretches to higher places and can strike at the same place as many times as necessary. For example, the Empire State Building skyscraper in New York 
+            is targeted by lightnings an average of 23 times a year.</p>    
+        <p><b>During a thunderstorm, you must not take a bath or answer the phone</b></p>
+            <p>In your home, you are mostly protected from lightning - with a few exceptions.
+            First: the story that you can’t take a bath or shower during a thunderstorm is actually believable. The destroyers of legends tested this with a mannequin, 
+            and the simulated lightning really went through metal pipes into the shower.
+            The team said that the device could not measure the current in the mannequin, but an electric arc provoked a fire. There are also several cases where people were 
+            injured using plumbing during a thunderstorm.
+            In addition, using the phone with a cord in bad weather can also lead to disaster. According to them, in the United States every year because of this, at least two people die.
+            As for cell phones that do not have a power cord, the risk is minimal. Although a 2006 study provided evidence that lightning struck people due to the use of mobile phones. </p>      
+        <p><b>In severe frost, it cannot snow</b></p>
+            <p>Most people think that the snow needs moisture, and the colder days are drier, which means precipitation is less likely.
+            However, the facts do not confirm this theory. Even when it seems that the street is too cold and not enough moisture in the air, it can still snow.
+            For example, Antarctica is the coldest and driest continent of the Earth, but at the same time annually there is an average of about 200 mm of rainfall in coastal areas 
+            and 50 mm in the dry depth of the mainland. Thus, the probability of precipitation with lower temperatures is indeed lower, but they are.</p>
+      </div>  
+    </section>
+    <section class="contactsRow">
+      <div class="map">
+        <img class="mapPic" src="/lesson11/images/fishhaven/map.jpg" alt="Map's picture">
+      </div>
+      <div class="contacts">
+        <h3>Contacts</h3>
+        <p>Emerald City</p>
+        <p>Red Brick Street, 999</p>
+        <p>(999)-999-9999</p>
+        <p>contact@weathersmood.com</p>
+        <div class="socialIcons">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-square fa-stack-2x" id="facebook"></i>
+            <a href="#"><i class="fab fa-facebook fa-stack-1x fa-inverse"></i></a>
+          </span> 
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-square fa-stack-2x" id="twitter"></i>
+            <a href="#"><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-square fa-stack-2x" id="whatsapp"></i>
+            <a href="#"><i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i></a>
+          </span>
+      </div>
+      </div>
+    </section>
+
+ </main>
+  <footer>
+        <div>
+            <span id="copyright">
+                © 
+                <span id="year"></span> 
+                | Vasily Belan | Republic of Bashkortostan | 
+                <a id="refSpan" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        
+            </span>
+        </div> 
+        <span id="lastUpdate"></span>
+  </footer>
+  <script src="/lesson11/js/fishhaven/lastUpdate.js"></script>
+  <script src="/lesson11/js/fishhaven/toggleMenu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="/lesson11/js/fishhaven/weatherFishhaven.js"></script>
+    <script>
+    WebFont.load({
+        google: {families: ['Gochi+Hand']}});
+    </script>
+</body>
+</html>
