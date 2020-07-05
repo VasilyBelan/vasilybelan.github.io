@@ -1,14 +1,14 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Preston,us&units=imperial&APPID=9de8eee9a4c64441c46ceb33e731a8a3';
+const url = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=9de8eee9a4c64441c46ceb33e731a8a3';
 fetch(url)
 .then((response) => response.json())
-.then((preston) => {
-  console.log(preston);
+.then((fishhaven) => {
+  console.log(fishhaven);
   
-document.getElementById('current').textContent = Math.round(preston.main.temp);
-document.getElementById('highT').textContent = Math.round(preston.main.temp_max);
-document.getElementById('hum').textContent = preston.main.humidity;
-document.getElementById('windS').textContent = Math.round(preston.wind.speed);
-document.getElementById('condition').textContent = preston.weather[0].main;
+document.getElementById('current').textContent = Math.round(fishhaven.main.temp);
+document.getElementById('highT').textContent = Math.round(fishhaven.main.temp_max);
+document.getElementById('hum').textContent = fishhaven.main.humidity;
+document.getElementById('windS').textContent = Math.round(fishhaven.wind.speed);
+document.getElementById('condition').textContent = fishhaven.weather[0].main;
 
 
 windChill();

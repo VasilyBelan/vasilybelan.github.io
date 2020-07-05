@@ -1,14 +1,14 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Preston,us&units=imperial&APPID=9de8eee9a4c64441c46ceb33e731a8a3';
+const url = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=9de8eee9a4c64441c46ceb33e731a8a3';
 fetch(url)
 .then((response) => response.json())
-.then((preston) => {
-  console.log(preston);
+.then((sodasprings) => {
+  console.log(sodasprings);
   
-document.getElementById('current').textContent = Math.round(preston.main.temp);
-document.getElementById('highT').textContent = Math.round(preston.main.temp_max);
-document.getElementById('hum').textContent = preston.main.humidity;
-document.getElementById('windS').textContent = Math.round(preston.wind.speed);
-document.getElementById('condition').textContent = preston.weather[0].main;
+document.getElementById('current').textContent = Math.round(sodasprings.main.temp);
+document.getElementById('highT').textContent = Math.round(sodasprings.main.temp_max);
+document.getElementById('hum').textContent = sodasprings.main.humidity;
+document.getElementById('windS').textContent = Math.round(sodasprings.wind.speed);
+document.getElementById('condition').textContent = sodasprings.weather[0].main;
 
 
 windChill();
