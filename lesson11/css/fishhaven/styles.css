@@ -60,10 +60,10 @@ nav{
     box-shadow: 0 0 30px black;
   }
 
-  .events{
+.events{
     background-color: #7EA9FF;
     border: 3px solid #0A3282;
-  }
+}
 
 .map{
     border: #0A3282 solid 3px;

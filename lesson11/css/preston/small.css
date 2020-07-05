@@ -150,6 +150,13 @@ main{
   display: none;
 }
 
+.events{
+  text-align: center;
+  padding: 0px 0px 15px 0;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+
 .article{
   display: flex;
   flex-direction: column;

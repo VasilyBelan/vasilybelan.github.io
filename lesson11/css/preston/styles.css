@@ -43,13 +43,21 @@ nav{
     border: 3px solid #0A3282;
     color: white;   
 }
+
 .forecast{
     border: 3px solid #0A3282;
     background-color: #7EA9FF;
 }
+
 .forecast p {
     color: black;
   }
+
+.events{
+    background-color: #7EA9FF;
+    border: 3px solid #0A3282;
+}
+
 .article{
       background-color: #7EA9FF;
 }

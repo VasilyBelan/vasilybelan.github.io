@@ -8,7 +8,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Fish Haven"
+            if (towns[i].name == "Preston"
             ) {             
                 let box = document.createElement('eventbox');
                 let event1 = document.createElement('p');
