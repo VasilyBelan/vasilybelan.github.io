@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scoots Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots Site | Home page">
+    <link rel="shortcut icon" href="/scoots/images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap">
+    <link  rel="stylesheet" href="/scoots/css/small.css">
+    <link rel="stylesheet" href="/scoots/css/medium.css">
+    <link rel="stylesheet" href="/scoots/css/large.css">
+    <link rel="stylesheet" href="/scoots/css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+</head>
+<body onload='getFive(3530103),forecast()'>
+  <header>
+    <picture>
+      <img id="logo" src="/scoots/images/logo.png" alt="Logo">
+    </picture> 
+	  <section class="headerlogo">
+		<h1>Scoots</h1>
+		<div>Unforgettable adventures</div>
+	  </section>
+  </header>
+  <hr class="hrHeader">
+  <nav>
+    <ul class="navigation">
+      <li><a class="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a id="active" href="#">Home</a></li>
+      <li><a href="/scoots/rentals.html">Rentals</a></li>
+      <li><a href="/scoots/reservations.html">Reservations</a></li>
+      <li><a href="/scoots/tours.html">Tours</a></li>
+      <li><a href="/scoots/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    
+    <div class="heroBox">
+
+      <picture>
+        <source media="(max-width: 600px)" srcset="/scoots/images/cozumelBeach400.jpg">
+        <source media="(max-width: 800px)" srcset="/scoots/images/cozumelBeach800.jpg">
+        <img  src="/scoots/images/cozumelBeach1200.jpg" alt="Cozumel Beach main photo">
+      </picture> 
+    </div>
+    <h2 class="rentalMainText">Rentals: </h2>
+    <div class="rentalHome">
+    </div>
+  <div class="weather">
+    <div id="fiveDay">
+      <div class="forecast">
+          <p id="day1">Mon</p>
+          <div class="icon-holder">
+              <img src="/scoots/images/placeholder.png" alt="forecast icon">
+          </div>
+          <p>78 &#8457;</p>  
+      </div>
+      <div class="forecast">
+          <p id="day2">Tue</p>
+          <div class="icon-holder">
+              <img src="/scoots/images/placeholder.png" alt="forecast icon">
+          </div>
+          <p>79 &#8457;</p>  
+      </div>
+      <div class="forecast">
+          <p id="day3">Wed</p>
+          <div class="icon-holder">
+              <img src="/scoots/images/placeholder.png" alt="forecast icon">
+          </div>
+          <p>76 &#8457;</p>  
+      </div>
+      <div class="forecast">
+          <p id="day4">Thur</p>
+          <div class="icon-holder">
+              <img src="/scoots/images/placeholder.png" alt="forecast icon">
+          </div>
+          <p>77 &#8457;</p>  
+      </div>
+      <div class="forecast">
+          <p id="day5">Fri</p>
+          <div class="icon-holder">
+              <img src="/scoots/images/placeholder.png" alt="forecast icon">
+          </div>
+          <p>83 &#8457;</p>  
+      </div>
+    </div>
+    <div class="summaryBox">
+      <h3>Weather Summary</h3>
+        <p>Currently: <span id="condition"></span></p>
+        <p>Current Temperature: <span id="current"></span>&#8457;</p>
+        <p>Humidity: <span id="hum"></span>%</p>
+    </div>
+  </div>
+      
+        <div class="contacts">
+          <h3>Contacts</h3>
+          <p>Emerald City</p>
+          <p>Red Brick Street, 999</p>
+          <p>(999)-999-9999</p>
+          <p>contact@weathersmood.com</p>
+          <div class="socialIcons">
+            <span class="socialPic">
+              <a href="#"><img  src="/scoots/images/instagramm.png" alt="Instagramm Icon"></a>
+            </span> 
+            <span class="socialPic">
+              <a href="#"><img  src="/scoots/images/facebook.png" alt="Facebook Icon"></a>
+            </span> 
+            <span class="socialPic">
+              <a href="#"><img  src="/scoots/images/youtube.png" alt="Youtube Icon"></a>
+            </span> 
+        </div>
+        </div>
+
+ </main>
+  <footer>
+        <div>
+            <span id="copyright">
+                © 
+                <span id="year"></span> 
+                | Vasily Belan
+                <a id="refSpan"></a>
+            </span>
+        </div> 
+        <span id="lastUpdate"></span>
+  </footer>
+  <script src="/scoots/js/homeRental.js"></script>
+  <script src="/lesson11/js/preston/lastUpdate.js"></script>
+  <script src="/lesson11/js/preston/toggleMenu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="/scoots/js/weather.js"></script>  
+</body>
+</html>

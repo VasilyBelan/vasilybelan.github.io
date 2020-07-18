@@ -1,0 +1,281 @@
+body {
+	padding: 0;
+	margin: 0;
+  font-family: "Cudea", "Geneva", sans-serif;
+}
+
+
+header {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	padding: 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+  font-family: 'Ranchers', cursive;
+  font-size: 18px;
+  background-color: #20B2AA;
+  color: white;
+}
+
+.headerlogo h1{
+  margin: 10px 10px 10px 0;
+}
+
+#active {
+    border-radius: 5px;
+    text-decoration: underline;
+    background: #0A3282;
+    color: white;
+  }
+
+#logo{
+  width: 80px;
+}
+
+.heroBox img{
+  width: 100%;
+}
+
+nav{
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #1356D4;
+}
+
+.navigation{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a{
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.responsive li{
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+.hrHeader{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrMain{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+.hrFooter{
+  height: 1px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
+}
+
+.rentalMainText{
+  text-align: center;
+}
+
+
+.rentalHome{
+  gap: 3px;
+  padding: 15px 0 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rentalHome section{
+  border: solid 2px;
+}
+
+.rentalHome h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.rentalHome p{
+  font-size: 13px;
+  padding: 5px;
+}
+.rental{
+  gap: 3px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rental section{
+  border: solid 2px;
+}
+
+.rental h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.rental p{
+  font-size: 13px;
+  padding: 5px;
+}
+
+.prestonHeading{
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.heroBox{
+  position: relative;
+}
+
+.summaryBox{
+  top: 15px;
+  left: 50px;
+  padding: 0 15px;
+  background-color: rgba(126, 169, 255, 0.7);
+  border: 3px solid #0A3282;
+  color: black;  
+}
+
+.heroBox h3{
+  font-size: 13px;
+}
+
+.heroBox p{
+  font-size: 13px;
+  line-height: 0.8;
+}
+
+.forecast{
+  border: 3px solid #0A3282;
+  background-color: #7EA9FF;
+}
+
+.forecast p {
+  font-weight: 600;
+  font-size: small;
+  margin: auto;
+  color: black;
+}
+
+#fiveDay{
+  display: none;
+}
+
+.forecastText{
+  display: none;
+}
+
+.weather{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactsRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.map{
+  display:block;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  max-width: 80%;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+  border: #0A3282 solid 3px;
+    box-shadow: 0 0 30px black;
+}
+
+.mapPic{
+  display:block;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  width: 350px;;
+  max-width: 100%;
+  padding: 5px;
+  margin: auto auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.contacts{
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 25px;
+  text-align: center;
+}
+
+.contacts p{
+  font-size: 15px;
+}
+
+.socialPic{
+  padding: 10px;
+}
+
+footer{
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.75rem;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #000000;
+}
+
+#copyright{
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+#lastUpdate{
+  color: #000000;
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+#refSpan{
+    background-color: transparent;
+    text-decoration: underline;
+    color: #000000;
+}
+
+footer a{
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+}
