@@ -119,6 +119,13 @@ main{
 
 .rental section{
   border: solid 2px;
+  background-color: blue;
+}
+
+.rental section:hover {
+  transform:scale(1.1);
+  box-shadow:4px 4px 4px #000;
+  z-index: 2;
 }
 
 .rental h2 {
@@ -274,6 +281,19 @@ form label.first input, form label.first select {
 form input.submitButton {
   background-color: #0A3282;
   color: white;
+}
+
+.toursPlace {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 50px 0 5px 0;
+}
+
+.toursLeftPic, .toursRightPic {
+  order: 2;
+  max-width: 100%;
+  float: right;
 }
 
 footer{

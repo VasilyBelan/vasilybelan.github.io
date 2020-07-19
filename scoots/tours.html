@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scoots Site | Tours' page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots Site | Page with tours">
+    <link rel="shortcut icon" href="/scoots/images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap">
+    <link  rel="stylesheet" href="/scoots/css/small.css">
+    <link rel="stylesheet" href="/scoots/css/medium.css">
+    <link rel="stylesheet" href="/scoots/css/large.css">
+    <link rel="stylesheet" href="/scoots/css/normalize.css">
+</head>
+<body>
+  <header>
+    <picture>
+      <img id="logo" src="/scoots/images/logo.png" alt="Logo">
+    </picture> 
+	  <section class="headerlogo">
+		<h1>Scoots</h1>
+		<div>Unforgettable adventures</div>
+	  </section>
+  </header>
+  <hr class="hrHeader">
+  <nav>
+    <ul class="navigation">
+      <li><a class="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="/scoots/index.html">Home</a></li>
+      <li><a href="/scoots/rentals.html">Rentals</a></li>
+      <li><a href="/scoots/reservations.html">Reservations</a></li>
+      <li><a id="active" href="#">Tours</a></li>
+      <li><a href="/scoots/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="toursMainText">Places you absolutely must visit</div>
+    <section class="toursPlace">
+        <img class="toursLeftPic" src="/scoots/images/museum.jpg" alt="Museum of the Island of Cozumel">
+        <h2>Museum of the Island of Cozumel</h2>
+        <div class="toursText">
+            <p>In San Miguel is the Museum of the Island of Cozumel (Museo de la Isla de Cozumel) - the largest and most visited cultural center. 
+                The main part of its exposition is also devoted to the Maya Indians.In addition to archaeological artifacts, 
+                visitors can see rich collections of natural science and geological exhibits. Visiting large archaeological areas should also be included in your recreation program. 
+                In total, there are ten large-scale archaeological areas on the island, the most interesting of which is San Gervasio.</p>
+        </div>  
+      </section>
+      <section class="toursPlace">
+        <img class="toursRightPic" src="/scoots/images/San-Gervasio-Mayan-Ruins-Cozumel.jpg" alt="Cozumel's Mayan Heritage: San Gervasio">
+        <h2> Cozumel's Mayan Heritage: San Gervasio</h2>
+        <div class="toursText">
+            <p>More than 30 Mayan sites have been found on Cozumel, some of them in beautiful locations such as dense jungle or perched above pristine beaches. 
+                By far the most important is that of San Gervasio, built in AD 800 and located 16 kilometers from San Miguel de Cozumel. Highlights of a visit include seeing the Temple of 
+                Ix-chel, for centuries the focal point of the island's religious life and a place of pilgrimage from across the Mayan empire.
+                Also of interest are the nearby ruins at Santa Rita, while a little farther away are the ruins of Santa Pilar and Castillo Real, the latter boasting Cozumel's 
+                largest Mayan structure. There are also Mayan remains in the southeast corner of the island at Buenavista and in the south at El Caracol.
+                Address: Carretera Transversal Kilómetro 7.5, Centro, 77600 Cozumel, QROO</p>
+        </div>  
+      </section>
+      <section class="toursPlace">
+        <img class="toursLeftPic" src="/scoots/images/Punta_Sur_Ecological_Park.jpg" alt="Punta Sur Eco Beach Park">
+        <h2>Punta Sur Eco Beach Park</h2>
+        <div class="toursText">
+            <p>A fun place to explore the diversity of Cozumel's coastline and experience its flora and fauna, the Punta Sur Eco Beach Park is the largest eco park on the island. 
+                Located at the southern tip of the island, Punta Sur provides plenty of great swimming and beach fun, as well as a chance to enjoy some snorkeling, scuba diving, and kayaking. 
+                Part of the 240-plus-acre Parque Punta Sur, it's home to a diversity of beaches, reefs, and lagoons, as well as a forested area with plenty of walking trails.
+                Other highlights include an old lighthouse, the Celarain (Faro de Celarain), with its adjoining nautical museum, and an old Mayan temple called the Caracol (Tumba del Caracol). 
+                For wildlife lovers, a number of observation platforms are available for bird-watching.</p>
+        </div>  
+      </section>
+ </main>
+  <footer>
+        <div>
+            <span id="copyright">
+                © 
+                <span id="year"></span> 
+                | Vasily Belan
+                <a id="refSpan"></a>
+            </span>
+        </div> 
+        <span id="lastUpdate"></span>
+  </footer>
+  <script src="/scoots/js/lastUpdate.js"></script>
+  <script src="/scoots/js/toggleMenu.js"></script>
+</body>
+</html>
