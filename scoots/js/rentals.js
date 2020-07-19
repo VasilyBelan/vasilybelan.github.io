@@ -15,22 +15,24 @@ fetch(requestURL)
             let reservFullDay = document.createElement('p');
             let walkInHalfDay = document.createElement('p');
             let walkInFullDay = document.createElement('p');
+            let photo = document.createElement('img');
     
-            //Create content
-            name.textContent = 'Rental Type: ' + rentalType[i].name;
-            maxPersons.textContent = 'Max. Persons: ' + rentalType[i].maxPersons;
-            reservHalfDay.textContent = 'Reservation Half Day (3 hrs): ' + rentalType[i].reservHalfDay;
-            reservFullDay.textContent = 'Reservation Full Day: ' + rentalType[i].reservFullDay;
-            walkInHalfDay.textContent = 'Walk-In Half Day (3 hrs): ' + rentalType[i].walkInHalfDay;
-            walkInFullDay.textContent = 'Walk-In Full Day: ' + rentalType[i].walkInFullDay;
-    
-            //Put elements in each
+            name.textContent = rentalType[i].name;
+            maxPersons.textContent = 'Max. persons: ' + rentalType[i].maxPersons;
+            reservHalfDay.textContent = 'Reservation half day (3 hrs): ' + rentalType[i].reservHalfDay;
+            reservFullDay.textContent = 'Reservation full day: ' + rentalType[i].reservFullDay;
+            walkInHalfDay.textContent = 'Walk-In half day (3 hrs): ' + rentalType[i].walkInHalfDay;
+            walkInFullDay.textContent = 'Walk-In full day: ' + rentalType[i].walkInFullDay;
+            photo.setAttribute('src', rentalType[i].imageurl);
+            photo.setAttribute('alt', rentalType[i].name + " photo ");
+
             rental.appendChild(name);
             rental.appendChild(maxPersons);
             rental.appendChild(reservHalfDay);
             rental.appendChild(reservFullDay);
             rental.appendChild(walkInHalfDay);
             rental.appendChild(walkInFullDay);
+            rental.appendChild(photo);
             document.querySelector('div.rental').appendChild(rental);
         }
       });

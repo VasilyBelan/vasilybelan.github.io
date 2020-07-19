@@ -16,14 +16,9 @@
     font-size: 2rem;
   }
 
-  .rentalHome{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  } 
-
   .rental{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   } 
 
   div{
