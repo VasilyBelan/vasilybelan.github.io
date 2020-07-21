@@ -17,32 +17,45 @@ header {
   font-size: 18px;
   background-color: #20B2AA;
   color: white;
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
 }
 
 .headerlogo h1{
   margin: 10px 10px 10px 0;
 }
 
+main{
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
+}
+
 #active {
-    border-radius: 5px;
-    text-decoration: underline;
-    background: #0A3282;
-    color: white;
-  }
+    color: #000000;
+    text-decoration: none;
+    background: #20B2AA;
+}
 
 #logo{
   width: 80px;
 }
 
 .heroBox img{
+  padding: 15px 0 15px 0;
   width: 100%;
 }
 
 nav{
-  border-bottom: 1px solid black;
+  max-width: 900px;
+  margin: auto;
+  height: max-content;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
   font-size: 15px;
   font-weight: bold;
-  background-color: #1356D4;
+  background-color: #ffaf17;
 }
 
 .navigation{
@@ -62,7 +75,7 @@ nav{
 }
 
 .navigation a{
-  color: #000000;
+  color: #000;
   display: block;
   text-decoration: none;
   padding: 0.75rem;
@@ -72,33 +85,6 @@ nav{
 .responsive li{
   display: block;
   border-bottom: 1px solid black;
-}
-
-.hrHeader{
-  height: 1px;
-  margin: 0;
-  background-color: #000000;
-  border: none;
-}
-
-.hrMain{
-  height: 1px;
-  margin: 0;
-  background-color: #000000;
-  border: none;
-}
-
-.hrFooter{
-  height: 1px;
-  margin: 0;
-  background-color: #000000;
-  border: none;
-}
-
-main{
-  max-width: 900px;
-  margin: auto;
-  height: max-content;
 }
 
 .rentalMainText{
@@ -152,7 +138,7 @@ main{
   top: 15px;
   left: 50px;
   padding: 0 15px;
-  background-color: rgba(126, 169, 255, 0.7);
+  background-color: #ffaf17;
   border: 3px solid #0A3282;
   color: black;  
 }
@@ -290,14 +276,82 @@ form input.submitButton {
   margin: 50px 0 5px 0;
 }
 
+.toursPlace a{
+  text-decoration: none;
+  color: #000;
+}
+
+.toursPlace a:visited {
+  text-decoration: none;
+ }
+ 
+.toursPlace a:hover {
+  color: #800000;
+}
+
+
 .toursLeftPic, .toursRightPic {
   order: 2;
   max-width: 100%;
   float: right;
 }
 
+.contactOffice{
+  display: flex;
+  margin: 15px;
+}
+
+.contactOffice li {
+  list-style-type: none;
+ }
+
+.contactOffice a{ 
+  text-decoration: none;
+ } 
+
+.contactOffice a:hover {
+  color: #800000;
+ }
+
+ .contactOffice u{ 
+  text-decoration: none;
+ } 
+
+.text{
+  -webkit-text-fill-color: #20B2AA;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 10px;
+  font-family: 'Ranchers', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+.text a {
+  -webkit-text-fill-color: #20B2AA;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.text a:hover{
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.rentalInfo a{
+  text-decoration: none;
+}
+
+.rentalInfo a:visited{
+  color: #000;
+}
+
+.rentalInfo a:hover{
+  color: red;
+}
+
 footer{
-  max-width: auto;
   margin-left: auto;
   margin-right: auto;
   text-align: center;

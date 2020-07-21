@@ -29,14 +29,13 @@
   }
 
 .navigation li a:hover {
-  color: white;
+  color: #000000;;
 }
   .navigation li:hover {
-    background-color: #0A3282;
-    color: white;
+    background-color: #C78111;
+    color: #000000;
     border: 1px solid #000000;
     box-shadow: 5px 5px 5px black;
-    border-radius: 5px;
   }
   
   #liLast{
