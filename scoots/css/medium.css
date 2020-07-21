@@ -128,15 +128,6 @@
     margin: 0 auto;
   }
   
-  .dayBox{
-    font-size: 1.3rem;
-    text-align: center;
-    border: 1px solid black;
-    max-width: 90px;
-    flex: 1 1 auto;
-    background-color: #7EA9FF;
-  }
-  
   .dayBox p{
     margin: 5px;
   }
@@ -162,21 +153,27 @@
 
   .toursPlace {
     display: block;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+    margin: 15px 0 15px 0;
   }
-
+  .toursText{
+    padding: 15px;
+    font-size: 20px;
+  }
+.toursPlaceSecond{    
+  display: block;
+  padding: 15px 0 15px 0;
+  margin: 15px 0 15px 0;
+}
   .toursRightPic {
     max-width: 450px;
-    margin-bottom: 5px;
-    margin-left: 20px;
     float: right;
+    margin: 0 15px 15px 15px;
 }
 
   .toursLeftPic{
     max-width: 450px;
-    margin-bottom: 5px;
-    margin-left: 20px;
+    margin: 0 15px 15px 15px;
     float: left;
   }
 

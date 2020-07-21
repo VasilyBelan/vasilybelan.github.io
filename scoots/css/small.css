@@ -300,27 +300,36 @@ form input.submitButton {
   background-color: #0A3282;
   color: white;
 }
-
+.toursContainer h2{
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
 .toursPlace {
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  margin: 50px 0 5px 0;
 }
 
-.toursPlace a{
+.toursPlace{
+  background: #ffaf17;
+}
+
+.toursPlaceSecond{
+  background: #20B2AA;
+}
+
+.toursPlace a, .toursPlaceSecond a{
   text-decoration: none;
   color: #000;
 }
 
-.toursPlace a:visited {
+.toursPlace a:visited, .toursPlaceSecond a:visited{
   text-decoration: none;
  }
  
-.toursPlace a:hover {
+.toursPlace a:hover, .toursPlaceSecond a:hover{
   color: #800000;
 }
-
 
 .toursLeftPic, .toursRightPic {
   order: 2;
