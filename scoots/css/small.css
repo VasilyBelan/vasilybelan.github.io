@@ -208,6 +208,7 @@ text-align: center;
   grid-row: 1;
   padding: 25px;
   text-align: center;
+  background: #364657;
 }
 
 .contacts p{
@@ -350,6 +351,7 @@ form input.submitButton {
 .text a {
   -webkit-text-fill-color: #20B2AA;
   -webkit-text-stroke-color: black;
+  
 }
 
 .text a:hover{
@@ -359,12 +361,16 @@ form input.submitButton {
 }
 
 .rentalInfo{
-  padding-left: 20px;
+  padding: 20px 0 0 20px;
+  border: 13px solid #20B2AA;
+  background: #ffaf17;
+  line-height: 25px;
 }
 
 .rentalInfo p{
   text-align: center;
 }
+
 
 .rentalInfo a:visited{
   color: #000;
