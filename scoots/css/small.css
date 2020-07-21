@@ -365,6 +365,12 @@ form input.submitButton {
   
 }
 
+.map iframe{
+  max-width:450;
+  max-height:300;
+  border:0; 
+}
+
 .textRentalPage{
   -webkit-text-fill-color: #ffaf17;
   -webkit-text-stroke-width: 0.5px;
