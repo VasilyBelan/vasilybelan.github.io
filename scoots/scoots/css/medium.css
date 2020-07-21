@@ -13,7 +13,25 @@
     font-size: 15px;
     font-weight: bold;
   }
-  
+
+  .text{
+    font-size: 35px;
+    letter-spacing: 0.5px;
+  }
+
+  .summaryBox{
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  .summaryBox h3{
+    padding-top: 50px;
+  }
+
+  div{
+    font-size: 20px;
+  }
+
   #logo{
     width: 150px;
   }
@@ -83,13 +101,8 @@
   max-height: 100px;
   display: block;
   padding: 0 1rem 1rem;
+  margin: 5px;
 }
-
-  .summaryBox{
-    top: 15px;
-    left: 335px;
-    padding: 0 15px;
-  }
 
   .heroBox h3{
     font-size: 23px;
@@ -133,6 +146,11 @@
     margin: 5px;
   }
   
+  .weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .iconWeather{
     font-size: 30px;
   }

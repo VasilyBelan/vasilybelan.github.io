@@ -12,8 +12,8 @@
     -webkit-text-stroke-width: 2px;
   }
 
-  .article h3{
-    font-size: 2rem;
+  .summaryBox h3{
+    padding-top: 30px;
   }
 
   .rental{
