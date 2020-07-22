@@ -376,8 +376,15 @@ form input.submitButton {
   text-decoration: none;
  } 
 
-.text{
+ .textContacts{
+  -webkit-text-fill-color: #ffaf17;
+ }
+
+ .text {
   -webkit-text-fill-color: #20B2AA;
+ }
+
+.text, .textContacts{
   -webkit-text-stroke-width: 0.5px;
   padding: 10px;
   font-family: 'Ranchers', cursive;
@@ -386,10 +393,15 @@ form input.submitButton {
   letter-spacing: 1.5px;
 }
 
-.text a {
+.textContacts a{
   -webkit-text-fill-color: #20B2AA;
+}
+
+.text a, .textContacts a{
+  -webkit-text-fill-color: #ffaf17;
+}
+.text a, .textContacts a{
   -webkit-text-stroke-color: black;
-  
 }
 
 #map {
@@ -415,7 +427,7 @@ form input.submitButton {
   
 }
 
-.text a:hover{
+.text a:hover, .textContacts a:hover{
   -webkit-text-fill-color: red;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;

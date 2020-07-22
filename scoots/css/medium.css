@@ -14,7 +14,7 @@
     font-weight: bold;
   }
 
-  .text{
+  .text, .textContacts{
     font-size: 35px;
     line-height: 40px;
   }
