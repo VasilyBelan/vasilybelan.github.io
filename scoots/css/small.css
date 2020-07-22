@@ -259,7 +259,6 @@ form input.submitButton {
 }
 
 form label.first, form div{
-  display: block;
   padding-top: 1.5em;
   font-size: 1em;
   font-weight: bold;
@@ -294,6 +293,7 @@ form label.first input:required:valid {
 }
 
 form fieldset{
+  display: flex;
   border: 2px solid #ffaf17;
 }
 
