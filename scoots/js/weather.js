@@ -70,7 +70,7 @@ function forecast() {
 }
 
 
-function initMapCentro () {
+function initMapCentro (x) {
   var locCentro = {lat: 20.510, lng: -86.9491};
   var locTerminal = {lat: 29.7070, lng: -80.9491};
   var mapCentro = new google.maps.Map(
