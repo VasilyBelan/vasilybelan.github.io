@@ -177,6 +177,11 @@
     float: left;
   }
 
+  form label.first input, form label.first select {
+    max-width: 300px;
+    width: 100%;
+  }
+
   footer{
       font-size: 1em;
   }

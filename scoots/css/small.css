@@ -223,18 +223,27 @@ text-align: center;
   font-size: 15px;
 }
 
+.contacts a{
+  text-decoration: none;
+}
+
+.contacts a:hover{
+  -webkit-text-fill-color: red;
+}
+
+
 form label.first input, form label.first select {
   display: block;
   font-size: 0.8rem;
   border-radius: 5px;
   padding: .75rem;
-  width: 100%;
-  max-width: 10rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 form label.second {
+  display: inline;
   padding: .75rem;
+  padding: 15px;
 }
 
 form input.submitButton {
@@ -247,6 +256,7 @@ form input.submitButton {
   margin-right: auto; 
   padding: .70rem 1.3rem;
   margin-bottom: 1.8rem;
+  margin-top: 1.8rem;
 }
 
 form label.first, form div {
@@ -280,11 +290,17 @@ form label.first input:required:valid {
 }
 
 form fieldset{
-  border: 1px solid #1356D4;
+  border: 2px solid #ffaf17;
 }
 
 form legend{
-  color: #1356D4;
+  -webkit-text-fill-color: #ffaf17;
+  -webkit-text-stroke-width: 0.5px;
+  padding: 10px;
+  font-family: 'Ranchers', cursive;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1.5px;
 }
 
 form label.first input, form label.first select {
@@ -294,7 +310,7 @@ form label.first input, form label.first select {
 }
 
 form input.submitButton {
-  background-color: #0A3282;
+  background-color: #20B2AA;
   color: white;
 }
 .toursContainer h2{
@@ -422,6 +438,18 @@ form input.submitButton {
 }
 
 .socialIcons{
+  text-align: center;
+}
+
+.rentalInfoText{
+  padding: 20px 0 0 20px;
+  border: 13px solid #20B2AA;
+  background: #ffaf17;
+  line-height: 25px;
+  margin: 0;
+}
+
+.thanks{
   text-align: center;
 }
 
