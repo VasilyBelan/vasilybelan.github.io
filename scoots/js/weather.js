@@ -87,17 +87,30 @@ function forecast() {
         var marker = new google.maps.Marker({position: locTerminal, mapCentro: mapTerminal});
       }
       }*/
-      function initMapCentro () {
+      function initMapCentro (x) {
+        if(x=1){
         var uluru = {lat: 29.7070, lng: -80.9491};
         var map = new google.maps.Map(
-            document.getElementById('mapCentro'), {zoom: 9, center: uluru});
+          document.getElementById('mapCentro'), {zoom: 9, center: uluru});
         var marker = new google.maps.Marker({position: uluru, map: map});
         }
-      function initMapTerminal () {
+        else if(x=2){
+          var uluru = {lat: 35.7070, lng: -70.9491};
+          var map = new google.maps.Map(
+          document.getElementById('mapTerminal'), {zoom: 9, center: uluru});
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+        }
+
+
+
+
+
+      /*function initMapTerminal () {
         var uluru = {lat: 35.7070, lng: -70.9491};
         var map = new google.maps.Map(
         document.getElementById('mapTerminal'), {zoom: 9, center: uluru});
         var marker = new google.maps.Marker({position: uluru, map: map});
-        }
+        }*/
 
   
