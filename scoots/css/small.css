@@ -232,7 +232,7 @@ text-align: center;
 }
 
 
-form label.first input, form label.first select, form label.second input, form label.second select {
+form label.first input, form label.first select{
   display: block;
   font-size: 0.8rem;
   border-radius: 5px;
@@ -258,7 +258,7 @@ form input.submitButton {
   margin-top: 1.8rem;
 }
 
-form label.first, form div, form label.second {
+form label.first, form div{
   display: block;
   padding-top: 1.5em;
   font-size: 1em;
@@ -307,7 +307,7 @@ form legend{
   letter-spacing: 1.5px;
 }
 
-form label.first input, form label.first select, form label.second input, form label.second select {
+form label.first input, form label.first select {
   border: solid 1px #999;
   color: #555;
   background-color: rgba(0, 0, 0, 0.1);
@@ -316,6 +316,7 @@ form label.first input, form label.first select, form label.second input, form l
 form input.submitButton {
   background-color: #20B2AA;
   color: white;
+  cursor: pointer;
 }
 .toursContainer h2{
   padding: 15px;
