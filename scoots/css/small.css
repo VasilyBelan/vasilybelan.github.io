@@ -379,7 +379,7 @@ form input.submitButton {
   max-height:300;
   border:0; 
 }
-#mapTerminal {
+#map {
   height: 200px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
  }
