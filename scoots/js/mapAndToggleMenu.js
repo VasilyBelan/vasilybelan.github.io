@@ -5,8 +5,8 @@ var lastUpdate = document.lastModified
 
 function initMapCentro() {
     var locations = [
-      ['Centro de Cozumel', 20.511164, -86.949251, 2],
-      ['Terminal Puerta Maya', 20.477030, -86.974670, 1]
+      ['Av Lic Benito Juárez 9, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico', 20.511164, -86.949251, 2],
+      ['Carr. Chancanab Km. 4.5, Carretera Costera Sur, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico', 20.477030, -86.974670, 1]
     ];
     
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -22,7 +22,8 @@ function initMapCentro() {
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
+        map: map,
+        title: 'Click to visit our company on Google Places'
       });
     
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
