@@ -321,6 +321,7 @@ form input.submitButton {
 .toursPlace {
   display: flex;
   flex-direction: column;
+  margin: 10px 0 10px 0;
 }
 
 .toursPlace{
@@ -348,6 +349,10 @@ form input.submitButton {
   order: 2;
   max-width: 100%;
   float: right;
+}
+
+.toursText{
+  margin: 0 10px 0 10px;
 }
 
 .contactOffice{
