@@ -379,7 +379,10 @@ form input.submitButton {
   max-height:300;
   border:0; 
 }
-
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
 .textRentalPage{
   -webkit-text-fill-color: #ffaf17;
   -webkit-text-stroke-width: 0.5px;
@@ -407,6 +410,7 @@ form input.submitButton {
   border: 13px solid #20B2AA;
   background: #ffaf17;
   line-height: 25px;
+  margin: 0;
 }
 
 .rentalInfo p{
