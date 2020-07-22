@@ -379,10 +379,16 @@ form input.submitButton {
   max-height:300;
   border:0; 
 }
-#map {
-  height: 400px;  /* The height is 400 pixels */
+#mapTerminal {
+  height: 200px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
  }
+
+ #mapCentro {
+  height: 200px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
 .textRentalPage{
   -webkit-text-fill-color: #ffaf17;
   -webkit-text-stroke-width: 0.5px;
