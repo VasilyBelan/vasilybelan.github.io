@@ -68,6 +68,8 @@ function forecast() {
   }
        
 }
+
+
 function initMapCentro() {
 var locations = [
   ['Bondi Beach', -33.890542, 151.274856, 4],
