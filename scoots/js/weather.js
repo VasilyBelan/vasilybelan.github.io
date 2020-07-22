@@ -68,26 +68,41 @@ function forecast() {
   }
        
 }
+function initMapCentro() {
+var locations = [
+  ['Bondi Beach', -33.890542, 151.274856, 4],
+  ['Coogee Beach', -33.923036, 151.259052, 5],
+  ['Cronulla Beach', -34.028249, 151.157507, 3],
+  ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
+  ['Maroubra Beach', -33.950198, 151.259302, 1]
+];
 
+var map = new google.maps.Map(document.getElementById('map'), {
+  zoom: 10,
+  center: new google.maps.LatLng(-33.92, 151.25),
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+});
 
-/*function initMapCentro () {
-  var locCentro = {lat: 20.510, lng: -86.9491};
-  var locTerminal = {lat: 29.7070, lng: -80.9491};
-  var mapCentro = new google.maps.Map(
-      document.getElementById('mapCentro'), {zoom: 7, center: locCentro});
-  var mapTerminal = new google.maps.Map(
-    document.getElementById('mapTerminal'), {zoom: 7, center: locTerminal});
-      if(x="mapTerminal")
-        
-      {
-        var marker = new google.maps.Marker({position: locCentro, mapCentro: mapCentro});
-      }
-      else
-      {
-        var marker = new google.maps.Marker({position: locTerminal, mapCentro: mapTerminal});
-      }
-      }*/
-      function initMapCentro (x) {
+var infowindow = new google.maps.InfoWindow();
+
+var marker, i;
+
+for (i = 0; i < locations.length; i++) {  
+  marker = new google.maps.Marker({
+    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+    map: map
+  });
+
+  google.maps.event.addListener(marker, 'click', (function(marker, i) {
+    return function() {
+      infowindow.setContent(locations[i][0]);
+      infowindow.open(map, marker);
+    }
+  })(marker, i));
+}     
+}
+
+/*function initMapCentro (x) {
         if(x=1){
         var uluru = {lat: 29.7070, lng: -80.9491};
         var map = new google.maps.Map(
