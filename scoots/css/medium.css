@@ -177,7 +177,7 @@
     float: left;
   }
 
-  form label.first input, form label.first select {
+  form label.first input, form label.first select, form label.second input, form label.second select {
     max-width: 300px;
     width: 100%;
   }

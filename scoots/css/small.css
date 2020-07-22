@@ -232,7 +232,7 @@ text-align: center;
 }
 
 
-form label.first input, form label.first select {
+form label.first input, form label.first select, form label.second input, form label.second select {
   display: block;
   font-size: 0.8rem;
   border-radius: 5px;
@@ -240,10 +240,9 @@ form label.first input, form label.first select {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.second {
-  display: inline;
-  padding: .75rem;
-  padding: 15px;
+.second{
+  display: block;
+  padding-top: 15px;
 }
 
 form input.submitButton {
@@ -259,7 +258,7 @@ form input.submitButton {
   margin-top: 1.8rem;
 }
 
-form label.first, form div {
+form label.first, form div, form label.second {
   display: block;
   padding-top: 1.5em;
   font-size: 1em;
@@ -279,6 +278,11 @@ form label.third {
   width: auto;
   display: flex;
   flex-direction: column;
+  font-size: 20px;
+}
+
+.comment textarea{
+  border: #20B2AA solid 2px;
 }
 
 form label.first input:required {
@@ -303,7 +307,7 @@ form legend{
   letter-spacing: 1.5px;
 }
 
-form label.first input, form label.first select {
+form label.first input, form label.first select, form label.second input, form label.second select {
   border: solid 1px #999;
   color: #555;
   background-color: rgba(0, 0, 0, 0.1);

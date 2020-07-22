@@ -57,7 +57,7 @@
 
         <fieldset>
             <legend>Rental Information</legend>
-            <label class="second">Rental Type: <input list="rentalChoice" name="rentalChoice"required></label>
+            <label class="second">Rental Type: <input list="rentalChoice" name="rentalChoice" required></label>
             <datalist id="rentalChoice">
                 <option value="Honda Metro Scooter">
                 <option value="Honda Dio Scooter">
@@ -66,21 +66,19 @@
                 <option value="Jeep Wrangler - 4 door">
                 <option value="Jeep Wrangler - 2 door">  
             </datalist>
-            <label class="second">Amount: <input list="amount" name="amount"required></label>
+            <label class="second">Amount: <input list="amount" name="amount" required></label>
             <datalist id="amount">
                 <option value="1">
                 <option value="2">
                 <option value="3">
                 <option value="4">
             </datalist>
-            <p>
-                <label class="second">From <input type="date" id="test_Date"name="date" min='2020-01-01' max='2000-13-13' required></label>
+                <label class="second">From <input type="date" id="test_Date" name="date" min='2020-01-01' required></label>
                 <label class="second"><input type="time" id="timeFrom" name="timeFrom" min="09:00" max="00:00" ></label>
                 <label class="second">to <input type="date" name="date" required></label>
                 <label class="second"><input type="time" id="timeTo" name="timeTo" min="09:00" max="00:00" ></label>
-            </p>
             <label class="second">Office:
-                <select name="region"required>
+                <select name="region" required>
                     <option value="" selected disabled>Select Region...</option>
                     <option value="Playa del Carmen">Playa del Carmen</option>
                     <option value="Puerta Maya">Puerta Maya</option>
@@ -90,7 +88,7 @@
 
         <fieldset>
             <legend>Comments</legend>
-            <label class="comment" class="first" ><p>Anything else? Just tell us:</p>
+            <label class="comment">Anything else? Just tell us:
             <textarea name="comments" class="comment"></textarea>
             </label> 
         </fieldset>
