@@ -72,8 +72,8 @@ function forecast() {
 
 function initMapCentro() {
 var locations = [
-  ['Centro', 20.511164, -86.949251, 2],
-  ['Terminal', 20.477030, -86.974670, 1]
+  ['Centro de Cozumel', 20.511164, -86.949251, 2],
+  ['Terminal Puerta Maya', 20.477030, -86.974670, 1]
 ];
 
 var map = new google.maps.Map(document.getElementById('map'), {
