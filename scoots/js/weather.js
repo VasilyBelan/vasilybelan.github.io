@@ -71,23 +71,24 @@ function forecast() {
 
 
 function initMapCentro () {
-  // The location of Uluru
-  var uluru = {lat: 20.510, lng: -86.9491};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('mapCentro'), {zoom: 7, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  var locCentro = {lat: 20.510, lng: -86.9491};
+  var locTerminal = {lat: 29.7070, lng: -80.9491};
+  var mapCentro = new google.maps.Map(
+      document.getElementById('mapCentro'), {zoom: 7, center: locCentro});
+  var mapTerminal = new google.maps.Map(
+    document.getElementById('mapTerminal'), {zoom: 7, center: locTerminal});
+  if(x="mapTerminal")
+    
+  {var marker = new google.maps.Marker({position: locCentro, mapCentro: mapCentro});}
+  else
+  {var marker = new google.maps.Marker({position: locTerminal, mapCentro: mapTerminal});}
   }
 
-  function initMapTerminal () {
-    // The location of Uluru
+  /*function initMapTerminal () {
     var uluru = {lat: 29.7070, lng: -80.9491};
-    // The map, centered at Uluru
     var map = new google.maps.Map(
         document.getElementById('mapTerminal'), {zoom: 9, center: uluru});
-    // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
-    }  
+    }  */
 
   
