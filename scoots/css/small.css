@@ -423,11 +423,10 @@ form input.submitButton {
 
 .textRentalPage a {
   -webkit-text-fill-color: #ffaf17;
-  -webkit-text-stroke-color: black;
-  
+  -webkit-text-stroke-color: black; 
 }
 
-.text a:hover, .textContacts a:hover{
+.text a:hover, .textContacts a:hover, .textRentalPage a:hover{
   -webkit-text-fill-color: red;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
